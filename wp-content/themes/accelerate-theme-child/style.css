@@ -111,14 +111,15 @@ aside.case-study-sidebar h5 {
 }
 aside.case-study-sidebar p {
 	font-size:15px;
-{
-div.case-study-images {
-	float: right;
-	width: 606px;
-}	
+}
+.case-study-images {
+	float: left;
+	width: 600px;
+	margin-top: 50px:
+}
 div.case-study-images img{
 	float: right;
-	display: inline;
+	width:100%;
 	margin-bottom:50px;
 	border:1px solid #dddddd;
 }
