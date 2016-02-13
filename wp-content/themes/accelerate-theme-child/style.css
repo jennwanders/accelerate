@@ -117,10 +117,21 @@ aside.case-study-sidebar p {
 	width: 600px;
 	margin-top: 50px:
 }
-div.case-study-images img{
+div.case-study-images img {
 	float: right;
 	width:100%;
 	margin-bottom:50px;
 	border:1px solid #dddddd;
+}
+
+/* Contact Page */
+
+div.site-content h2 {
+	font-size: 20px;
+}
+div.narrow-contact {
+	font-size: 14px;
+	width: 600px;
+	margin-left: 125px;
 }
 
