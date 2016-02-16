@@ -69,10 +69,22 @@
 	font-family: 'Montserrat';
 	text-transform: uppercase;
 }
+.widget-area {
+	float: right;
+	margin-right: 175px;
+	width: 35%;
+}
+.widget-area h4 {
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
 /* Blog Posts */
 
 .blog-post {
-	width: 50%;
+	width: 35%;
 }
 .blog-post h4 {
 	text-align: left;
@@ -127,6 +139,7 @@ div.case-study-images img {
 /* Contact Page */
 
 div.site-content h2 {
+	margin-top: 60px;
 	font-size: 20px;
 }
 div.narrow-contact {
@@ -134,4 +147,52 @@ div.narrow-contact {
 	width: 600px;
 	margin-left: 125px;
 }
+#ninja_forms_field_1_div_wrap{
+	width: 45%;
+	float: left;
+}
+#ninja_forms_field_2_div_wrap {
+	width: 45%;
+	float: right;
+}
+#ninja_forms_field_5 {
+	background: none repeat scroll 0 0 #45ac9d;
+    color: white;
+	float: right;
+	Width: 28%;
+	height: 45px;
+	font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
 
+/* About Page */
+
+.about-2 {
+ 	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+ 	background-position: center bottom;
+    height: 130px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+.about-page {
+	color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 200px 10px 200px;
+}
+
+/* 404 Page */
+
+.error-page {
+	background: url("img/annoyed.png") no-repeat scroll center / 100% 100% rgba(0, 0, 0, 0);
+	height: 600px;
+	padding: 20px 0;
+}
+.error-page h4 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+	font-weight: normal;
+	color: red;
+}
