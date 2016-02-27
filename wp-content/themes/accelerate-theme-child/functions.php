@@ -48,3 +48,12 @@ register_sidebar( array(
 	'before_title' => '<h3 class="widget-title">',
 	'after_title' => '</h3>',
 ) );
+register_sidebar( array(
+	'name' =>__( 'Blogpage sidebar', 'blogpage-sidebar'),
+	'id' => 'sidebar-3',
+	'description' => __( 'Appears on the static blog page template', 'blogpage-sidebar' ),
+	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	'after_widget' => '</aside>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
+) );
