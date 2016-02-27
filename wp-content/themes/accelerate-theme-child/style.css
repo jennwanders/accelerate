@@ -18,6 +18,10 @@
     margin: 0 0 80px;
     padding: 100px 0;
 }
+img {
+	width: 100%;
+	height: auto;
+}
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
     color: white;
@@ -47,44 +51,104 @@
     list-style: none;
 }
 .individual-featured-work h3 {
-    text-align: center;
     margin-top: 20px;
     font-size: 16px;
-    font-weight: 600;
+    text-align: center;
+}
+.individual-featured-work {
+	width: 300px;
+	margin-right: 0;
+}
+.individual-featured-work  {
+	display: inline-block;
 }
 .recent-posts {
 	float:left;
-	margin-left: 175px;
+	margin-left: 225px;
+	width: 425px;
+	padding-bottom: 50px;
 }
 .recent-posts h4 {
 	padding-top: 60px;
 }
 .recent-posts h2 {
-	padding-top: 10px;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+.recent-posts p {
+	width: 400px;
 }
 .site-content h4 {
 	text-align: center;
 	font-size: 16px;
 	margin-bottom: 40px;
-	font-family: 'Montserrat';
 	text-transform: uppercase;
+}
+.widget.PI_SimpleTwitterTweets {
+	margin-right: 0;
+	margin-left: 125px;
+	float: left;
 }
 .widget-area {
-	float: right;
-	margin-right: 175px;
-	width: 35%;
+	float: left;
+	width: 350px;
 }
 .widget-area h4 {
+	margin-left: 125px;
 	text-align: left;
 	font-size: 16px;
-	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	padding-top: 60px;
 }
+.widget-area h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px
+}
+.widget	{
+	font-size: 16px;
+	padding: 0;
+	margin-left: 20px;
+}
+.widget ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+	
 /* Blog Posts */
 
-.blog-post {
-	width: 35%;
+.post-entry {
+	width: 600px;
+}
+.post-entry individual-post {
+	float: right;
+}
+aside.sidebar {
+	padding-top: 100px;
+	float: right;
+	width: 255px;
+}
+widget.widget_mc4wp_form_widget {
+	width: 250px
+	float: right;
+}
+.mc4wp-form-fields input  {
+	background: none repeat scroll 0 0 #45ac9d;
+    color: white;
+    font-family: "montserrat";
+    font-size: 14px;
+    text-align: center;
+    float: right;
+}
+.mc4wp-form-fields label {
+	text-transform: uppercase;
+	color: #a6a6a6;
+	font-size: 14px;
 }
 .blog-post h4 {
 	text-align: left;
@@ -105,6 +169,7 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
 /* Case Studies */
 
 article.case-study {
@@ -139,7 +204,7 @@ div.case-study-images img {
 /* Contact Page */
 
 div.site-content h2 {
-	margin-top: 60px;
+	margin-top: 40px;
 	font-size: 20px;
 }
 div.narrow-contact {
@@ -172,19 +237,57 @@ div.narrow-contact {
  	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
  	background-position: center bottom;
     height: 130px;
-    margin: 0 0 80px;
     padding: 100px 0;
 }
-.about-page {
+.about-content {
+	margin-bottom: 75px;
+	text-align: center;
+}
+div.about-page {
 	color: white;
     font-size: 24px;
     font-weight: normal;
-    margin: 0 200px 10px 200px;
+    margin: 0 175px 10px 175px;
 }
+div.image-1 {
+	width: 30%;
+	float: left;
+	margin-right: 140px;
+}
+div.content-strategy {
+	width: 55%;
+	display: inline-block;
+}
+div.image-2 {
+	width: 30%;
+	float: right;
+}
+div.influencer-mapping {
+	width: 55%;
+	display: inline-block;
+}
+div.image-3 {
+	width: 30%;
+	float: left;
+	margin-right: 140px;
+}
+div.social-media-strategy {
+	width: 55%;
+	display: inline-block;
+}
+div.image-4 {
+	width: 30%;
+	float: right;
+}
+div.design-and-development {
+	width: 55%;
+	display: inline-block;
+}
+
 
 /* 404 Page */
 
-.error-page {
+.error-page{
 	background: url("img/annoyed.png") no-repeat scroll center / 100% 100% rgba(0, 0, 0, 0);
 	height: 600px;
 	padding: 20px 0;

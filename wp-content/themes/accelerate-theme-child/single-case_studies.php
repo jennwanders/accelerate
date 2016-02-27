@@ -30,9 +30,8 @@ get_header(); ?>
 			<h2><?php the_title(); ?></h2>
 			<h5><?php echo $services; ?></h5>
 			<h6>Client: <?php echo $client; ?></h6>
-			
 			<?php the_content(); ?>
-			<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p> 
+				<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p> 
 		</aside>
 					
 		<div class="case-study-images">
@@ -47,7 +46,7 @@ get_header(); ?>
 			} ?>
 		</div>
 		
-			</article>
+	</article>
 			<?php endwhile; //end of the loop ?>
 	    </div><! --- #content --->
 	</div><! --- #primary --->
